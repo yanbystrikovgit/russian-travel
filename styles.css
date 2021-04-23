@@ -336,12 +336,10 @@
     align-items: center;
     width: 100%;
     min-height: 740px;
-    transition: opacity 0.6 linear;
 }
 
 .cover__link::before{
     content: "";
-    opacity: 0.6;
     top: 0;
     left: 0;
     bottom: 0;
@@ -349,6 +347,11 @@
     background: #2A2C2F;
     opacity: 0.3;
     position: absolute;
+    transition: opacity 0.6 linear;
+}
+
+.cover__link:hover::before {
+    opacity: 0.6;
 }
 
 .cover__title {
