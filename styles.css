@@ -41,9 +41,9 @@
     border: 1px solid red;
  } 
 
-/* body {
+ .root {
     background-color: #2A2C2F; 
-} */
+} 
 
 .page {
     background-color: #2A2C2F;
@@ -318,64 +318,56 @@
 } */
 
 .cover {
+    margin: 0 auto;
     max-width: 1184px;
-    max-height: 740px;
-    margin-left: auto;
-    margin-right: auto;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    position: relative;
 }
 
-.cover__text {
-    margin: 0;
-    grid-row: 2/5;
-    grid-column: 2/5;
-    z-index: 1;
+.cover__link {
+    background-image: url(./images/cover-trains.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-decoration: none;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 740px;
+    transition: opacity 0.6 linear;
+}
+
+.cover__link::before{
+    content: "";
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #2A2C2F;
+    opacity: 0.3;
+    position: absolute;
 }
 
 .cover__title {
-    margin: 0;
-    font-family: 'Inter-Black';
-    font-style: normal;
-    font-weight: 900;
+    margin: 0 auto;
+    margin-top: 245px;
     font-size: 72px;
     line-height: 76px;
     text-align: center;
-    color: #FFFFFF; 
+    width: 560px;
+    z-index: 1;
 }
 
 .cover__subtitle {
-    font-family: 'Inter-Regular';
-    font-style: normal;
-    font-weight: normal;
+    margin: 0 auto;
+    margin-top: 32px;
+    margin-bottom: 245px;
     font-size: 18px;
     line-height: 22px;
     text-align: center;
-    color: #FFFFFF;
-    max-width: 360px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.cover__overlay {
-    width: 100%;
-    height: 100%;
-    grid-row: 1/6;
-    grid-column: 1/6;
-    background: #2A2C2F;
-    opacity: 0.3;
-    transition: opacity .5s linear;
-}
-
-.cover__overlay:hover{
-    opacity: .6;
-}
-
-.cover__background {
-    width: 100%;
-    height: 100%;
-    grid-row: 1/6;
-    grid-column: 1/6;
-    transition: opacity .5s linear;
+    width: 360px;
+    z-index: 1;
 }
