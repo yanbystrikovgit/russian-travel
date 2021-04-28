@@ -1,0 +1,10 @@
+.cover__title {
+    margin: 0 auto;
+    margin-top: 245px;
+    font-family: 'Inter-Black';
+    font-size: 72px;
+    line-height: 76px;
+    text-align: center;
+    width: 560px;
+    z-index: 1;
+}

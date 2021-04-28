@@ -1,175 +1,38 @@
-<<<<<<< HEAD
-
-=======
-@font-face {
-    font-family: 'Inter-Black';
-    src: url(./fonts/Inter-Web/Inter-Black.woff);
-    font-style: normal; 
-    font-weight: normal;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%;
-    text-rendering: optimizeLegibility;
-}
->>>>>>> 4d40276e2e5f591df2d1a70628fe155009054edd
 
   h1, h2, h3, h4, div, p, section, span, img, ul, li, a {
     border: 1px solid red;
  }  
 
- .root {
-    background-color: #2A2C2F; 
-} 
 
-.page {
-    background-color: #2A2C2F;
-    box-sizing: border-box;
-    max-width: 1280px;
-    margin: 0 auto;
-}
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
-.header__logo {
-    margin-top: 28px;
-    margin-bottom: 56px;
-    margin-left: 48px;
-}
 
-.header__lang-link-box{
-    display: flex;
-    list-style-type: none;
-    margin-left: 0;
-    padding-left: 0;
 
-}
 
-.header__lang-link {
-    color: #fff;
-    width: 30px;
-    height: 28px;
-    font-family: 'Inter-Regular';
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 28px;
-    margin-right: 18px;
-    margin-top: 46px;
-}
 
-.header__lang-link_not-selected {
-    text-decoration: none;
-}
 
-.lead {
-    margin: 0;
-}
 
-.lead__title {
-    color: #fff;
-    font-family: 'Inter-Black';
-    font-weight: 900;
-    font-size: 96px;
-    line-height: 100px;
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 0;
-    margin-bottom: 0;
-    max-width: 720px;
-    max-height: 200px;
-}
 
-.lead__subtitle {
-    color: #fff;
-    width: 640px;
-    height: 72px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 32px;
-    margin-bottom: 64px;
-    font-family: 'Inter-Regular';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 36px;
-    text-align: center;
-}
 
-.lead__image {
-    max-width: 76.5%;
-    max-height: 76.5%;
-    display: block; 
-    margin-right: auto; 
-    margin-left: auto; 
-}
-.lead__caption {
-    font-family: 'Inter-Regular';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 14px;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    width: 160px;
-    height: 14px;
-    margin-left: 11.5%;
-}
 
-.intro {
-    margin-top: 92px;
-    min-width: 690px;
-    min-height: 429px;
-}
 
-.intro__title {
-    max-width: 690px;
-    max-height: 58px;
-    font-family: 'Inter-Black';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 54px;
-    line-height: 58px;
-    color: #FFFFFF;
-    margin-left: 11.5%;
-    margin-top: 0;
-    margin-bottom: 0;
-}
 
-.intro__text {
-    max-width: 690px;
-    max-height: 208px;
-    font-family: 'Inter-Regular';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 163%; /* или 26px */
-    color: #FFFFFF;
-    margin-left: 11.5%;
-    margin-top: 40px;
-    margin-bottom: 33px;
-}
 
-.intro__list {
-    max-width: 690px;
-    font-family: 'Inter-Bold';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 18px; /* или 150% */
-    color: #FFFFFF;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 11.5%;
-}
 
-.intro__list-number {
+
+
+
+
+
+
+
+
+
+
+
+
+
+.intro__list_number {
     font-family: 'Inter-Regular';
     font-style: normal;
     font-weight: normal;
@@ -334,11 +197,7 @@
     background: #2A2C2F;
     opacity: 0.3;
     position: absolute;
-<<<<<<< HEAD
     transition: opacity .6 linear;
-=======
-    transition: opacity 0.6 linear;
->>>>>>> 4d40276e2e5f591df2d1a70628fe155009054edd
 }
 
 .cover__link:hover::before {
@@ -348,10 +207,7 @@
 .cover__title {
     margin: 0 auto;
     margin-top: 245px;
-<<<<<<< HEAD
     font-family: 'Inter-Black';
-=======
->>>>>>> 4d40276e2e5f591df2d1a70628fe155009054edd
     font-size: 72px;
     line-height: 76px;
     text-align: center;
@@ -363,10 +219,7 @@
     margin: 0 auto;
     margin-top: 32px;
     margin-bottom: 245px;
-<<<<<<< HEAD
     font-family: 'Inter-Regular';
-=======
->>>>>>> 4d40276e2e5f591df2d1a70628fe155009054edd
     font-size: 18px;
     line-height: 22px;
     text-align: center;

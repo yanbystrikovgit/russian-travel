@@ -1,0 +1,8 @@
+.place__website {
+    max-width: 456px;
+    max-height: 46px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    align-self: end;
+}

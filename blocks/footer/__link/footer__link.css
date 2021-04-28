@@ -1,0 +1,16 @@
+.footer__link {
+    margin: 0 auto;
+    margin-right: 18px;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Inter-Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    transition: opacity 0.6 linear;
+}
+
+.footer__link:hover{
+    opacity: .6;
+}

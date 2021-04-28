@@ -1,0 +1,7 @@
+.root {
+    background-color: #2A2C2F; 
+} 
+
+h1, h2, h3, h4, div, p, section, span, img, ul, li, a {
+    border: 1px solid red;
+ }  
