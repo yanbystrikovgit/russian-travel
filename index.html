@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./normalize.css" rel="stylesheet" type="text/css">
-    <link href="./styles.css" rel="stylesheet" type="text/css">
+    <link href="./vendor/normalize.css" rel="stylesheet" type="text/css">
+    <link href="./pages/index.css" rel="stylesheet" type="text/css">
     <title>Russian travel</title>
   </head>
-  <body>
+  <body class="root">
     <div class="page">
       <header class="header">
         <img class="header__logo" src="./images/header-logo.svg">
@@ -140,13 +140,24 @@
         </div>
       </section>
       <section class="cover">
-        <div class="cover__text">
-          <h2 class="cover__title">До Байкала <br> «на собаках»</h2>
-          <h3 class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от
-            столицы до Байкала на электричках.</h3>
-        </div>
-        <div class="cover__overlay"></div>
-        <img class="cover__background" src="./images/cover-trains.jpg">
+        <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
+            <h2 class="cover__title">До Байкала «на собаках»</h2>
+            <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от
+              столицы до Байкала на электричках.</p>
+<<<<<<< HEAD
+        </a>
+      </section>
+      <section class="footer">
+        <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
+        <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
+        <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
+        <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
+        <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
+        <p class="footer__copyright">© 2021. Ян Быстриков</p>
+=======
+          <div class="cover__overlay"></div>
+        </a>
+>>>>>>> 4d40276e2e5f591df2d1a70628fe155009054edd
       </section>
     </div>  
   </body>
