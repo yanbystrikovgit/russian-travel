@@ -12,3 +12,15 @@
     right: 0;
     top: 0;
 }
+
+@media screen and (max-width: 320px) {
+    .footer__copyright {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 14px;
+        position: static;
+        text-align: left;
+        margin-left: 16px;
+    }   
+}

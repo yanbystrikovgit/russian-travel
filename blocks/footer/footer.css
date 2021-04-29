@@ -11,3 +11,18 @@
         max-width: 928px;  
     }   
 }
+
+@media screen and (max-width: 768px) {
+    .footer {
+        max-width: 720px;  
+    }   
+}
+
+@media screen and (max-width: 320px) {
+    .footer {
+        max-width: 320px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 64px;
+    }   
+}

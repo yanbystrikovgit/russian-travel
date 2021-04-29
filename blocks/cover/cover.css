@@ -3,4 +3,25 @@
     position: relative;
     margin: 0 auto;
     margin-top: 92px;
+
+}
+
+@media screen and (max-width: 1024px){
+    .cover{
+        height: 640px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .cover{
+        height: 480px;
+    }
+}
+
+@media all and (max-width: 320px){
+    .cover  {
+        max-height: 200px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
 }

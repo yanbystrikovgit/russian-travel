@@ -19,3 +19,22 @@
         column-gap: 14px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .photo-grid {
+        max-width: 928px;
+        grid-template-columns: repeat(auto-fit, 352px);
+        grid-template-rows: repeat(auto-fit, 264px);
+        row-gap: 16px;
+        column-gap: 16px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .photo-grid {
+        max-width: 928px;
+        grid-template-columns: repeat(auto-fit, 288px);
+        grid-template-rows: repeat(auto-fit, 216px);
+        row-gap: 12px;
+    }
+}

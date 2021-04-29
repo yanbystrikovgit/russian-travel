@@ -3,4 +3,12 @@
     box-sizing: border-box;
     max-width: 1280px;
     margin: 0 auto;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 320px){
+    .page {
+        max-width: 320px;
+    }
+    
 }

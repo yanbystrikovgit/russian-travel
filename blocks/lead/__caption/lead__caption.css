@@ -9,11 +9,17 @@
     color: #FFFFFF;
     width: 160px;
     height: 14px;
-    margin-left: 11.5%;
+    margin-left: 148px;
 }
 
 @media screen and (max-width: 1024px) {
     .lead__caption {
         margin-left: 48px;
     }   
+}
+
+@media screen and (max-width: 768px) {
+    .lead__caption {
+        margin-left: 24px;
+    }
 }

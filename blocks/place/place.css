@@ -7,9 +7,9 @@
     max-height: 660px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
     column-gap: 40px;
-    row-gap: 48px; 
+    row-gap: 48px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -17,3 +17,21 @@
         max-width: 928px;
     }   
 }
+
+@media screen and (max-width: 768px) {
+    .place {
+        max-width: 720px;
+    }   
+}
+
+@media screen and (max-width: 320px) {
+    .place {
+         display: block;
+         max-width: 320px;
+         min-height: 964px; 
+         margin-bottom: 50px;
+    }   
+}
+
+
+
