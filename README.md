@@ -9,4 +9,4 @@
 * Адаптивная верстка
 
 ## GH Pages
-[Link](https://yanbystrikovgit.github.io/russian-travel/)
+[__Link__](https://yanbystrikovgit.github.io/russian-travel/)
