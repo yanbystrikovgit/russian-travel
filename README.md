@@ -4,8 +4,8 @@
 Проект про путешествия через всю Россию. В проекте представлена информация и фото о самых красивых местах на пути, а также предоставлены ссылки в которых можно получить еще больше материла
 
 ## Используемые технологии:
-*GRID LayOut
-*Flex
-*Адаптивная верстка
+* GRID LayOut
+* Flex
+* Адаптивная верстка
 
-##[GH Pages](https://yanbystrikovgit.github.io/russian-travel/)
+## [GH Pages](https://yanbystrikovgit.github.io/russian-travel/)
