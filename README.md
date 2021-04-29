@@ -1,4 +1,4 @@
-# russian-travel
+# Russian-travel
 ## Проект 3: Путешествие по России
 
 Проект про путешествия через всю Россию. В проекте представлена информация и фото о самых красивых местах на пути, а также предоставлены ссылки в которых можно получить еще больше материла
@@ -8,4 +8,5 @@
 * Flex
 * Адаптивная верстка
 
-## [GH Pages](https://yanbystrikovgit.github.io/russian-travel/)
+## GH Pages
+[Link](https://yanbystrikovgit.github.io/russian-travel/)
