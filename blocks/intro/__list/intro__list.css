@@ -1,0 +1,35 @@
+.intro__list {
+    max-width: 690px;
+    font-family: 'Inter-Bold';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px; /* или 150% */
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 11.5%;
+}
+
+@media screen and (max-width: 1024px) {
+    .intro__list {
+        margin-left: 0;
+    }   
+}
+
+@media screen and (max-width: 768px) {
+    .intro__list {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro__list {
+        max-width: 320px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,13 @@
+.header__lang-box{
+    display: flex;
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+
+}
+
+@media  screen and (max-width: 320px){ 
+    .header__lang-box {
+        margin-top: -10px;
+    }
+}
