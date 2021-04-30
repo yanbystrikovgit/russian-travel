@@ -8,30 +8,6 @@
     font-size: 72px;
     line-height: 76px;
     color: #FFFFFF;
-    grid-column: 1/2;
-    grid-row: 1/2;
-    text-align:justify;
-}
-
-@media screen and (max-width: 768px) {
-    .place__title {
-        width: 330px;
-        font-style: normal;
-        font-weight: 900;
-        font-size: 42px;
-        line-height: 46px;
-        margin: 0;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .place__title {
-        font-style: normal;
-        font-weight: 900;
-        font-size: 32px;
-        line-height: 35px;
-        margin-bottom: 32px;
-        margin-left: 16px;
-        max-width: 290px;
-    }
+    grid-area: 'title';
+    text-align: justify;
 }
