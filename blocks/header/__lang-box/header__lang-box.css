@@ -6,7 +6,7 @@
 
 }
 
-@media  screen and (max-width: 320px){ 
+@media  screen and (max-width: 767px){ 
     .header__lang-box {
         margin-top: -10px;
     }

@@ -1,8 +1,4 @@
 .root {
     background-color: #2A2C2F;
     margin-bottom: 0;
-} 
-
-h1, h2, h3, div, a, section, p, img {
-    border: 1px solid red;
 }

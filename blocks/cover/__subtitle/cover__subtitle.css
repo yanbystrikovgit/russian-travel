@@ -2,7 +2,7 @@
     margin: 0 auto;
     margin-top: 32px;
     margin-bottom: 245px;
-    font-family: 'Inter-Regular';
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-size: 18px;
     line-height: 22px;
     text-align: center;
@@ -10,7 +10,7 @@
     z-index: 1;
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 767px){
     .cover__subtitle {
         font-style: normal;
         font-weight: normal;
@@ -18,7 +18,7 @@
         line-height: 16px;
         max-width: 260px;
         margin-top: 16px;
-        margin-bottom: 0;
+        margin-bottom: 33px;
         
     }
 }

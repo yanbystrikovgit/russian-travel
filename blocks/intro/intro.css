@@ -3,23 +3,26 @@
     min-width: 80%;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
+        .intro {
+            margin: 0 auto;
+            margin-top: 92px;
+            max-width: calc(100% - 96px);
+        }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .intro {
-        margin-left: 48px;
+        margin:0 auto;
+        margin-top: 88px;
+        max-width: calc(100% - 48px);
     }   
 }
 
-@media screen and (max-width: 768px) {
-    .intro {
-        margin-left: 24px;
+@media screen and (max-width: 767px) {
+    .intro{
+        margin: 0 auto;
+        margin-top: 64px;
+        max-width: calc(100% - 32px);
     }
-}
-
-@media screen and (max-width: 320px) {
-    .intro {
-        min-width: 300px;
-        min-height: 754px;
-        margin-left: 16px;
-        margin-top: 54px;
-}
 }
