@@ -1,14 +1,14 @@
 .footer__link {
-    margin: 0 auto;
-    margin-right: 18px;
+    width: max-content;
     text-decoration: none;
     color: #fff;
-    font-family: 'Inter-Regular';
+    font-family: 'Inter';
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 18px;
     transition: opacity 0.6 linear;
+    grid-area: 'link';
 }
 
 .footer__link:hover{
