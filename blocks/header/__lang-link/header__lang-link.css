@@ -9,6 +9,7 @@
     margin-right: 18px;
     margin-top: 46px;
     transition: opacity .6 linear;
+    text-decoration: none;
 }
 
 .header__lang-link:hover {

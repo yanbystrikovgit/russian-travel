@@ -8,19 +8,13 @@
 
 @media all and (max-width: 1023px){
     .cover{
-        max-height: 480px;
         max-width: 768px;
-        margin-top: 0;
-        margin-bottom: 0;
     }
 }
 
 
 @media all and (max-width: 767px){
     .cover  {
-        max-height: 200px;
         max-width: 320px;
-        margin-top: 0;
-        margin-bottom: 0;
     }
 }
