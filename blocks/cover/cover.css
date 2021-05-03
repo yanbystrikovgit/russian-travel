@@ -2,7 +2,6 @@
     max-width: 1184px;
     position: relative;
     margin: 0 auto;
-    margin-top: 92px;
 
 }
 
@@ -15,6 +14,8 @@
 
 @media all and (max-width: 767px){
     .cover  {
+        margin: 0;
+        margin-bottom: 64px;
         max-width: 320px;
     }
 }

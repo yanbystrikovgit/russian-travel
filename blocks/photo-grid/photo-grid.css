@@ -5,12 +5,12 @@
     row-gap: 16px;
     column-gap: 16px;
     margin-top: 92px;
+    margin-bottom: 92px;
     justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .photo-grid {
         max-width: 928px;
         grid-template-columns: repeat(auto-fit, 300px);
@@ -20,19 +20,17 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .photo-grid {
-        max-width: 928px;
+        margin-bottom: 88px;
         grid-template-columns: repeat(auto-fit, 352px);
         grid-template-rows: repeat(auto-fit, 264px);
-        row-gap: 16px;
-        column-gap: 16px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .photo-grid {
-        max-width: 928px;
+        margin-bottom: 64px;
         grid-template-columns: repeat(auto-fit, 288px);
         grid-template-rows: repeat(auto-fit, 216px);
         row-gap: 12px;
