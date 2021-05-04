@@ -2,20 +2,22 @@
     max-width: 1184px;
     position: relative;
     margin: 0 auto;
+    margin-top: 0px;
 
 }
 
 @media all and (max-width: 1023px){
     .cover{
+        margin-top: 90px;
         max-width: 768px;
+        max-height: 480px;
     }
 }
 
 
 @media all and (max-width: 767px){
     .cover  {
-        margin: 0;
-        margin-bottom: 64px;
+        /* margin-bottom: 64px; */
         max-width: 320px;
     }
 }

@@ -3,11 +3,10 @@
     background-color: #2a2c2f;
     max-width: 984px;
     margin: 0 auto;
-    padding-bottom: 52px;
 }
+
 @media screen and (max-width: 767px) {
     .places {
-        padding-bottom: 40px;
         max-width: 320px;
     }
 }
