@@ -29,13 +29,21 @@
     opacity: 0.8;
 }
 
+@media screen and (max-width: 1279px){
+    .cover__link{
+        width: 100%;
+        max-width: 1024px;
+        max-height: 640px;
+        background-size: contain;
+        background-position: top;
+    }
+}
+
 @media screen and (max-width: 1023px){
     .cover__link{
         width: 100%;
         max-width: 768px;
         max-height: 480px;
-        background-size: contain;
-        background-position: top;
     }
 }
 
