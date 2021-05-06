@@ -9,16 +9,16 @@
     color: #FFFFFF;
     width: 80%;
     text-align: justify;
-    margin-left: 148px;
+    /* margin-left: 148px; */
     margin-top: 8px;
 }
 
-@media screen and (max-width: 1279px) {
+ /* @media screen and (max-width: 1279px) {
     .lead__caption {
         margin-left: 48px;
     }
     
-}
+} */
 
 @media screen and (max-width: 1023px) {
     .lead__caption {
@@ -30,4 +30,4 @@
     .lead__caption {
         margin-left: 16px;
     }
-}
+} 
